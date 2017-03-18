@@ -2,11 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>朱弦</title>
-    <link>https://szhao045.github.io/index.xml</link>
+    <link>/szhao045.github.io/index.xml</link>
     <description>Recent content on 朱弦</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://szhao045.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2017 01:22:04 -0500</lastBuildDate>
+    <atom:link href="/szhao045.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>/szhao045.github.io/about/</link>
+      <pubDate>Sat, 18 Mar 2017 01:22:04 -0500</pubDate>
+      
+      <guid>/szhao045.github.io/about/</guid>
+      <description>&lt;p&gt;I am mesmerized.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>summary of 2016</title>
+      <link>/szhao045.github.io/post/summary%20of%202016/</link>
+      <pubDate>Fri, 17 Mar 2017 22:48:38 -0500</pubDate>
+      
+      <guid>/szhao045.github.io/post/summary%20of%202016/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
