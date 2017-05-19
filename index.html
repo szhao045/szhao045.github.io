@@ -1,418 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en-US">
+
+<head>
 	<meta name="generator" content="Hugo 0.19" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-    <base href="https://szhao045.github.io">
-    
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/png" href="https://szhao045.github.io/favicon_16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="https://szhao045.github.io/favicon_32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://szhao045.github.io/favicon_128x128.png" sizes="128x128">
-
-    <title>
-      
-      
-        朱弦
-      
-    </title>
-    <link rel="canonical" href="https://szhao045.github.io/">
-
-    <style>
-  * {
-    border:0;
-    font:inherit;
-    font-size:100%;
-    vertical-align:baseline;
-    margin:0;
-    padding:0;
-    color: black;
-  }
-
-  body {
-    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
-    font-size:17px;
-    line-height:160%;
-    color:#1d1313;
-    max-width:700px;
-    margin:auto;
-  }
-
-  p {
-    margin: 20px 0;
-  }
-
-  a img {
-    border:none;
-  }
-
-  img {
-    margin: 10px auto 10px auto;
-    max-width: 100%;
-    display: block;
-  }
-
-  pre, code {
-    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    background-color: #f7f7f7;
-  }
-
-  code {
-    font-size: 12px;
-    padding: 4px;
-  }
-
-  pre {
-    margin-top: 0;
-    margin-bottom: 16px;
-    word-wrap: normal;
-    padding: 16px;
-    overflow: auto;
-    font-size: 85%;
-    line-height: 1.45;
-  }
-
-  pre>code {
-    padding: 0;
-    margin: 0;
-    font-size: 100%;
-    word-break: normal;
-    white-space: pre;
-    background: transparent;
-    border: 0;
-  }
-
-  pre code {
-    display: inline;
-    max-width: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: transparent;
-    border: 0;
-  }
-
-  pre code::before,
-  pre code::after {
-    content: normal;
-  }
-
-  em,q,em,dfn {
-    font-style:italic;
-  }
-
-  .sans,html .gist .gist-file .gist-meta {
-    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
-  }
-
-  .mono,pre,code,tt,p code,li code {
-    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
-  }
-
-  .heading,.serif,h1,h2,h3 {
-    font-family:"Old Standard TT",serif;
-  }
-
-  strong {
-    font-weight:600;
-  }
-
-  q:before {
-    content:"\201C";
-  }
-
-  q:after {
-    content:"\201D";
-  }
-
-  del,s {
-    text-decoration:line-through;
-  }
-
-  blockquote {
-    font-family:"Old Standard TT",serif;
-    text-align:center;
-    padding:50px;
-  }
-
-  blockquote p {
-    display:inline-block;
-    font-style:italic;
-  }
-
-  blockquote:before,blockquote:after {
-    font-family:"Old Standard TT",serif;
-    content:'\201C';
-    font-size:35px;
-    color:#403c3b;
-  }
-
-  blockquote:after {
-    content:'\201D';
-  }
-
-  hr {
-    width:40%;
-    height: 1px;
-    background:#403c3b;
-    margin: 25px auto;
-  }
-
-  h1 {
-    font-size:35px;
-  }
-
-  h2 {
-    font-size:28px;
-  }
-
-  h3 {
-    font-size:22px;
-    margin-top:18px;
-  }
-
-  h1 a,h2 a,h3 a {
-    text-decoration:none;
-  }
-
-  h1,h2 {
-    margin-top:28px;
-  }
-
-  #sub-header, time {
-    color:#403c3b;
-    font-size:13px;
-  }
-
-  #sub-header {
-    margin: 0 4px;
-  }
-
-  #nav h1 a {
-    font-size:35px;
-    color:#1d1313;
-    line-height:120%;
-  }
-
-  .posts_listing a,#nav a {
-    text-decoration: none;
-  }
-
-  li {
-    margin-left: 20px;
-  }
-
-  ul li {
-    margin-left: 5px;
-  }
-
-  ul li {
-    list-style-type: none;
-  }
-  ul li:before {
-    content:"\00BB \0020";
-  }
-
-  #nav ul li:before, .posts_listing li:before {
-    content:'';
-    margin-right:0;
-  }
-
-  #content {
-    text-align:left;
-    width:100%;
-    font-size:15px;
-    padding:60px 0 80px;
-  }
-
-  #content h1,#content h2 {
-    margin-bottom:5px;
-  }
-
-  #content h2 {
-    font-size:25px;
-  }
-
-  #content .entry-content {
-    margin-top:15px;
-  }
-
-  #content time {
-    margin-left:3px;
-  }
-
-  #content h1 {
-    font-size:30px;
-  }
-
-  .highlight {
-    margin: 10px 0;
-  }
-
-  .posts_listing {
-    margin:0 0 50px;
-  }
-
-  .posts_listing li {
-    margin:0 0 25px 15px;
-  }
-
-  .posts_listing li a:hover,#nav a:hover {
-    text-decoration: underline;
-  }
-
-  #nav {
-    text-align:center;
-    position:static;
-    margin-top:60px;
-  }
-
-  #nav ul {
-    display: table;
-    margin: 8px auto 0 auto;
-  }
-
-  #nav li {
-    list-style-type:none;
-    display:table-cell;
-    font-size:15px;
-    padding: 0 20px;
-  }
-
-  #links {
-    margin: 50px 0 0 0;
-  }
-
-  #links :nth-child(2) {
-    float:right;
-  }
-
-  #not-found {
-    text-align: center;
-  }
-
-  #not-found a {
-    font-family:"Old Standard TT",serif;
-    font-size: 200px;
-    text-decoration: none;
-    display: inline-block;
-    padding-top: 225px;
-  }
-
-  @media (max-width: 750px) {
-    body {
-      padding-left:20px;
-      padding-right:20px;
-    }
-
-    #nav h1 a {
-      font-size:28px;
-    }
-
-    #nav li {
-      font-size:13px;
-      padding: 0 15px;
-    }
-
-    #content {
-      margin-top:0;
-      padding-top:50px;
-      font-size:14px;
-    }
-
-    #content h1 {
-      font-size:25px;
-    }
-
-    #content h2 {
-      font-size:22px;
-    }
-
-    .posts_listing li div {
-      font-size:12px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    body {
-      padding-left:20px;
-      padding-right:20px;
-    }
-
-    #nav h1 a {
-      font-size:22px;
-    }
-
-    #nav li {
-      font-size:12px;
-      padding: 0 10px;
-    }
-
-    #content {
-      margin-top:0;
-      padding-top:20px;
-      font-size:12px;
-    }
-
-    #content h1 {
-      font-size:20px;
-    }
-
-    #content h2 {
-      font-size:18px;
-    }
-
-    .posts_listing li div{
-      font-size:12px;
-    }
-  }
-</style>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Don&#39;t panic">
+
+<meta property="og:title" content="Zhu Xian" />
+<meta property="og:description" content="Don&#39;t panic" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://szhao045.github.io/" />
+
+
+
+<meta property="og:updated_time" content="2017-05-19T16:53:33-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+    Zhu Xian
+
+</title>
+<link rel="canonical" href="https://szhao045.github.io/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
 
 
     
-      <link href="https://szhao045.github.io/index.xml" rel="alternate" type="application/rss+xml" title="朱弦" />
+    <link rel="stylesheet" href="https://szhao045.github.io/css/reset.css?t=2017-05-19%2017%3a09%3a32.629555691%20-0500%20CDT">
+    <link rel="stylesheet" href="https://szhao045.github.io/css/pygments.css?t=2017-05-19%2017%3a09%3a32.629555691%20-0500%20CDT">
+    <link rel="stylesheet" href="https://szhao045.github.io/css/main.css?t=2017-05-19%2017%3a09%3a32.629555691%20-0500%20CDT">
     
-  </head>
-
-  <body>
-    <section id=nav>
-      <h1><a href="https://szhao045.github.io/">朱弦</a></h1>
-      <ul>
-        
-      </ul>
-    </section>
-
-
-<section id=content>
-  <ul class=posts_listing>
+        <link rel="stylesheet" href="https://szhao045.github.io/css/override.css?t=2017-05-19%2017%3a09%3a32.629555691%20-0500%20CDT">
     
-      <li>
-        <h2><a href="https://szhao045.github.io/post/cherche-le-temp-perdu/">cherche le temp perdu</a></h2>
-        <div id=date>
-          <time>March 2017</time>
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://szhao045.github.io/img/leaf.ico"
+
+>
+
+
+
+  <link href="https://szhao045.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Zhu Xian" />
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                
+                <a href="https://szhao045.github.io/"><img class="avatar" src="https://szhao045.github.io/img/profile.png" srcset="https://szhao045.github.io/img/profile.png 1x"></a>
+            
+            <a href="https://szhao045.github.io/"><div class="name">Siqi Zhao</div></a>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="https://szhao045.github.io/blog/"><span>Blog</span></a></li>
+                    
+                        <li class="nav-about"><a href="https://szhao045.github.io/about/"><span>About</span></a></li>
+                    
+                        <li class="nav-code"><a href="https://szhao045.github.io/code/"><span>Code</span></a></li>
+                    
+                </ul>
+            </nav>
         </div>
-      </li>
-    
-      <li>
-        <h2><a href="https://szhao045.github.io/post/nostalgia/">nostalgia</a></h2>
-        <div id=date>
-          <time>March 2017</time>
-        </div>
-      </li>
-    
-  </ul>
+    </div>
 </section>
 
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/you" target="_blank" rel="noopener"><img class="icon" src="https://szhao045.github.io/img/github.svg" alt="github" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="mailto:you@example.space"><img class="icon" src="https://szhao045.github.io/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="https://szhao045.github.io/index.xml"><img class="icon" src="https://szhao045.github.io/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            
+            
+            
+            
+              <div class="page-heading">Latest Posts</div>
+                <ul>
+                    
+                        <li class="post-item">
+    
+    <span class="meta"><time datetime='2017-05-19T16:53:33-05:00'>May 19, 2017</time></span>
+    
+    <a href="https://szhao045.github.io/blog/new/"><span>new</span></a>
+</li>
+
+                    
+                    
+                </ul>
+              </div>
+            
+    </div>
+</section>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
   
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
 </body>
 </html>
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Zhu Xian</title>
+    <link>https://szhao045.github.io/blog/index.xml</link>
+    <description>Recent content in Blog on Zhu Xian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 19 May 2017 16:53:33 -0500</lastBuildDate>
+    <atom:link href="https://szhao045.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>new</title>
+      <link>https://szhao045.github.io/blog/new/</link>
+      <pubDate>Fri, 19 May 2017 16:53:33 -0500</pubDate>
+      
+      <guid>https://szhao045.github.io/blog/new/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

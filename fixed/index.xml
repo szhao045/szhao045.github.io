@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fixed on Zhu Xian</title>
+    <link>https://szhao045.github.io/fixed/index.xml</link>
+    <description>Recent content in Fixed on Zhu Xian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 19 May 2017 16:46:41 -0500</lastBuildDate>
+    <atom:link href="https://szhao045.github.io/fixed/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>https://szhao045.github.io/about/</link>
+      <pubDate>Fri, 19 May 2017 16:46:41 -0500</pubDate>
+      
+      <guid>https://szhao045.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

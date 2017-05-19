@@ -1,403 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-    <base href="https://szhao045.github.io">
-    
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/png" href="https://szhao045.github.io/favicon_16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="https://szhao045.github.io/favicon_32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://szhao045.github.io/favicon_128x128.png" sizes="128x128">
-
-    <title>
-      
-      
-         cherche le temp perdu 
-      
-    </title>
-    <link rel="canonical" href="https://szhao045.github.io/post/cherche-le-temp-perdu/">
-
-    <style>
-  * {
-    border:0;
-    font:inherit;
-    font-size:100%;
-    vertical-align:baseline;
-    margin:0;
-    padding:0;
-    color: black;
-  }
-
-  body {
-    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
-    font-size:17px;
-    line-height:160%;
-    color:#1d1313;
-    max-width:700px;
-    margin:auto;
-  }
-
-  p {
-    margin: 20px 0;
-  }
-
-  a img {
-    border:none;
-  }
-
-  img {
-    margin: 10px auto 10px auto;
-    max-width: 100%;
-    display: block;
-  }
-
-  pre, code {
-    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    background-color: #f7f7f7;
-  }
-
-  code {
-    font-size: 12px;
-    padding: 4px;
-  }
-
-  pre {
-    margin-top: 0;
-    margin-bottom: 16px;
-    word-wrap: normal;
-    padding: 16px;
-    overflow: auto;
-    font-size: 85%;
-    line-height: 1.45;
-  }
-
-  pre>code {
-    padding: 0;
-    margin: 0;
-    font-size: 100%;
-    word-break: normal;
-    white-space: pre;
-    background: transparent;
-    border: 0;
-  }
-
-  pre code {
-    display: inline;
-    max-width: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: transparent;
-    border: 0;
-  }
-
-  pre code::before,
-  pre code::after {
-    content: normal;
-  }
-
-  em,q,em,dfn {
-    font-style:italic;
-  }
-
-  .sans,html .gist .gist-file .gist-meta {
-    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
-  }
-
-  .mono,pre,code,tt,p code,li code {
-    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
-  }
-
-  .heading,.serif,h1,h2,h3 {
-    font-family:"Old Standard TT",serif;
-  }
-
-  strong {
-    font-weight:600;
-  }
-
-  q:before {
-    content:"\201C";
-  }
-
-  q:after {
-    content:"\201D";
-  }
-
-  del,s {
-    text-decoration:line-through;
-  }
-
-  blockquote {
-    font-family:"Old Standard TT",serif;
-    text-align:center;
-    padding:50px;
-  }
-
-  blockquote p {
-    display:inline-block;
-    font-style:italic;
-  }
-
-  blockquote:before,blockquote:after {
-    font-family:"Old Standard TT",serif;
-    content:'\201C';
-    font-size:35px;
-    color:#403c3b;
-  }
-
-  blockquote:after {
-    content:'\201D';
-  }
-
-  hr {
-    width:40%;
-    height: 1px;
-    background:#403c3b;
-    margin: 25px auto;
-  }
-
-  h1 {
-    font-size:35px;
-  }
-
-  h2 {
-    font-size:28px;
-  }
-
-  h3 {
-    font-size:22px;
-    margin-top:18px;
-  }
-
-  h1 a,h2 a,h3 a {
-    text-decoration:none;
-  }
-
-  h1,h2 {
-    margin-top:28px;
-  }
-
-  #sub-header, time {
-    color:#403c3b;
-    font-size:13px;
-  }
-
-  #sub-header {
-    margin: 0 4px;
-  }
-
-  #nav h1 a {
-    font-size:35px;
-    color:#1d1313;
-    line-height:120%;
-  }
-
-  .posts_listing a,#nav a {
-    text-decoration: none;
-  }
-
-  li {
-    margin-left: 20px;
-  }
-
-  ul li {
-    margin-left: 5px;
-  }
-
-  ul li {
-    list-style-type: none;
-  }
-  ul li:before {
-    content:"\00BB \0020";
-  }
-
-  #nav ul li:before, .posts_listing li:before {
-    content:'';
-    margin-right:0;
-  }
-
-  #content {
-    text-align:left;
-    width:100%;
-    font-size:15px;
-    padding:60px 0 80px;
-  }
-
-  #content h1,#content h2 {
-    margin-bottom:5px;
-  }
-
-  #content h2 {
-    font-size:25px;
-  }
-
-  #content .entry-content {
-    margin-top:15px;
-  }
-
-  #content time {
-    margin-left:3px;
-  }
-
-  #content h1 {
-    font-size:30px;
-  }
-
-  .highlight {
-    margin: 10px 0;
-  }
-
-  .posts_listing {
-    margin:0 0 50px;
-  }
-
-  .posts_listing li {
-    margin:0 0 25px 15px;
-  }
-
-  .posts_listing li a:hover,#nav a:hover {
-    text-decoration: underline;
-  }
-
-  #nav {
-    text-align:center;
-    position:static;
-    margin-top:60px;
-  }
-
-  #nav ul {
-    display: table;
-    margin: 8px auto 0 auto;
-  }
-
-  #nav li {
-    list-style-type:none;
-    display:table-cell;
-    font-size:15px;
-    padding: 0 20px;
-  }
-
-  #links {
-    margin: 50px 0 0 0;
-  }
-
-  #links :nth-child(2) {
-    float:right;
-  }
-
-  #not-found {
-    text-align: center;
-  }
-
-  #not-found a {
-    font-family:"Old Standard TT",serif;
-    font-size: 200px;
-    text-decoration: none;
-    display: inline-block;
-    padding-top: 225px;
-  }
-
-  @media (max-width: 750px) {
-    body {
-      padding-left:20px;
-      padding-right:20px;
-    }
-
-    #nav h1 a {
-      font-size:28px;
-    }
-
-    #nav li {
-      font-size:13px;
-      padding: 0 15px;
-    }
-
-    #content {
-      margin-top:0;
-      padding-top:50px;
-      font-size:14px;
-    }
-
-    #content h1 {
-      font-size:25px;
-    }
-
-    #content h2 {
-      font-size:22px;
-    }
-
-    .posts_listing li div {
-      font-size:12px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    body {
-      padding-left:20px;
-      padding-right:20px;
-    }
-
-    #nav h1 a {
-      font-size:22px;
-    }
-
-    #nav li {
-      font-size:12px;
-      padding: 0 10px;
-    }
-
-    #content {
-      margin-top:0;
-      padding-top:20px;
-      font-size:12px;
-    }
-
-    #content h1 {
-      font-size:20px;
-    }
-
-    #content h2 {
-      font-size:18px;
-    }
-
-    .posts_listing li div{
-      font-size:12px;
-    }
-  }
-</style>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="最近听《硬影像》的一期叫做神秘主义电影的博客，非常受到触动。其中最令我思考的段落总结如下：
+我们的描述都在宏大叙事（也就是革命情结）与神秘主义之间游走。  很多这里的文字都是对这期播客的总结和延伸，很多都不是我独立的想法，但是我依旧希望在这里可以将我获得的知识进行总结，然后记录自己的所思所感。
+宏达叙事就是认为这个世界有一个答案，有一个目的，『我是阿尔法，我是欧米茄』可能是对这种世界观的最直观的描述：这个世界是有始有终的，这个世界有超越个人的宏大的规律。同时这样的定义也暗示着一套道德准则：与结局相违背的就是坏的，与结局相契合的则是好的。对于一个犹太-基督信仰来说，这个结局就是『上帝拯救人类，人类顺从上帝』；对于一个马克思主义者来说，这个结局就是『共产主义的实现』。正因如此，宏大叙事和革命主义也被联系了起来：在这个世界不断发展的过程中，有一个人，或者是一小部分人将承担将这个世界从旧的状态A推动到新的状态B中去。这个人可以是基督，也可是中央政治局。
+而神秘主义则与个人主义紧紧的联系了起来。神秘主义给『世界是什么』这个问题的答案是：世界的进程将以不可以被预测的、超脱逻辑之外的方式被展现出来 （如果它能被展现的话），这就意味着每一次世界规律的展现则是独立的，而不是超越个例的，更不是普适的。神秘主义的体现在某些天主教灵修会、以及藏传佛教中的密宗。这个世界的规律是被显灵的圣人，或者是悟到金刚乘的格西所展现的，而且很重要的是，这些规律是不能被传达的。通过崇拜，而不是学习，其他人得以窥见世界的规律。因此每个人的个人体验变成了观察以及表达的唯一方式 &ndash; 正如同普鲁斯特在《追忆似水年华》中的描写，这个家庭和这些体验同『客观』描述的历史独立开来，法国大革命带来的变化似乎与他笔下的形形色色的人和事没有关系。
+然而有一部巨作，似乎在努力将宏大叙事和神秘主义联系在一起，那就是托尔斯泰的《战争与和平》。法俄战争的恢弘的历史的叙述，以及在这个巨大的历史框架下的每个人的爱恨情愁，都无一巨细的在这部皇皇巨著中被保留下来——没有过度的归纳，也没有同细节的纠缠。
+而我们每个人的『私人的历史』似乎也可以被放在这个二分的范畴里。一方面我们的经历是宏观的，科技的进步带来的对生活的改变，对史实和政局的了解和参与；另一方面我们的经历则是非常私人的，无迹可寻的，甚至是神秘的。似乎巨大的改变都在悄然的时刻发生。这或许是悲剧的来源 &mdash; 二分带来矛盾，统一则是混乱的。">
+
+<meta property="og:title" content="cherche le temp perdu" />
+<meta property="og:description" content="最近听《硬影像》的一期叫做神秘主义电影的博客，非常受到触动。其中最令我思考的段落总结如下：
+我们的描述都在宏大叙事（也就是革命情结）与神秘主义之间游走。  很多这里的文字都是对这期播客的总结和延伸，很多都不是我独立的想法，但是我依旧希望在这里可以将我获得的知识进行总结，然后记录自己的所思所感。
+宏达叙事就是认为这个世界有一个答案，有一个目的，『我是阿尔法，我是欧米茄』可能是对这种世界观的最直观的描述：这个世界是有始有终的，这个世界有超越个人的宏大的规律。同时这样的定义也暗示着一套道德准则：与结局相违背的就是坏的，与结局相契合的则是好的。对于一个犹太-基督信仰来说，这个结局就是『上帝拯救人类，人类顺从上帝』；对于一个马克思主义者来说，这个结局就是『共产主义的实现』。正因如此，宏大叙事和革命主义也被联系了起来：在这个世界不断发展的过程中，有一个人，或者是一小部分人将承担将这个世界从旧的状态A推动到新的状态B中去。这个人可以是基督，也可是中央政治局。
+而神秘主义则与个人主义紧紧的联系了起来。神秘主义给『世界是什么』这个问题的答案是：世界的进程将以不可以被预测的、超脱逻辑之外的方式被展现出来 （如果它能被展现的话），这就意味着每一次世界规律的展现则是独立的，而不是超越个例的，更不是普适的。神秘主义的体现在某些天主教灵修会、以及藏传佛教中的密宗。这个世界的规律是被显灵的圣人，或者是悟到金刚乘的格西所展现的，而且很重要的是，这些规律是不能被传达的。通过崇拜，而不是学习，其他人得以窥见世界的规律。因此每个人的个人体验变成了观察以及表达的唯一方式 &ndash; 正如同普鲁斯特在《追忆似水年华》中的描写，这个家庭和这些体验同『客观』描述的历史独立开来，法国大革命带来的变化似乎与他笔下的形形色色的人和事没有关系。
+然而有一部巨作，似乎在努力将宏大叙事和神秘主义联系在一起，那就是托尔斯泰的《战争与和平》。法俄战争的恢弘的历史的叙述，以及在这个巨大的历史框架下的每个人的爱恨情愁，都无一巨细的在这部皇皇巨著中被保留下来——没有过度的归纳，也没有同细节的纠缠。
+而我们每个人的『私人的历史』似乎也可以被放在这个二分的范畴里。一方面我们的经历是宏观的，科技的进步带来的对生活的改变，对史实和政局的了解和参与；另一方面我们的经历则是非常私人的，无迹可寻的，甚至是神秘的。似乎巨大的改变都在悄然的时刻发生。这或许是悲剧的来源 &mdash; 二分带来矛盾，统一则是混乱的。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://szhao045.github.io/post/cherche-le-temp-perdu/" />
+
+
+
+<meta property="article:published_time" content="2017-03-18T16:45:20-05:00"/>
+<meta property="article:modified_time" content="2017-03-18T16:45:20-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     cherche le temp perdu 
+
+</title>
+<link rel="canonical" href="https://szhao045.github.io/post/cherche-le-temp-perdu/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
 
 
     
-  </head>
+    <link rel="stylesheet" href="https://szhao045.github.io/css/reset.css?t=2017-05-19%2017%3a09%3a32.627812651%20-0500%20CDT">
+    <link rel="stylesheet" href="https://szhao045.github.io/css/pygments.css?t=2017-05-19%2017%3a09%3a32.627812651%20-0500%20CDT">
+    <link rel="stylesheet" href="https://szhao045.github.io/css/main.css?t=2017-05-19%2017%3a09%3a32.627812651%20-0500%20CDT">
+    
+        <link rel="stylesheet" href="https://szhao045.github.io/css/override.css?t=2017-05-19%2017%3a09%3a32.627812651%20-0500%20CDT">
+    
 
-  <body>
-    <section id=nav>
-      <h1><a href="https://szhao045.github.io/">朱弦</a></h1>
-      <ul>
+
+
+
+<link rel="shortcut icon"
+
+    href="https://szhao045.github.io/img/leaf.ico"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                
+                <a href="https://szhao045.github.io/"><img class="avatar" src="https://szhao045.github.io/img/profile.png" srcset="https://szhao045.github.io/img/profile.png 1x"></a>
+            
+            <a href="https://szhao045.github.io/"><div class="name">Siqi Zhao</div></a>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="https://szhao045.github.io/blog/"><span>Blog</span></a></li>
+                    
+                        <li class="nav-about"><a href="https://szhao045.github.io/about/"><span>About</span></a></li>
+                    
+                        <li class="nav-code"><a href="https://szhao045.github.io/code/"><span>Code</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
         
-      </ul>
-    </section>
+            <a href="//github.com/you" target="_blank" rel="noopener"><img class="icon" src="https://szhao045.github.io/img/github.svg" alt="github" /></a>
+        
 
+        
 
-<section id=content>
-  <h1> cherche le temp perdu </h1>
+        
 
-  <div id=sub-header>
-    March 2017 · 1 minute read
-  </div>
+        
 
-  <div class="entry-content">
-    <p>最近听《硬影像》的一期叫做<a href="http://ipn.li/hardimage/43/">神秘主义电影</a>的博客，非常受到触动。其中最令我思考的段落总结如下：</p>
+        
+
+        
+
+        
+            <a href="mailto:you@example.space"><img class="icon" src="https://szhao045.github.io/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="https://szhao045.github.io/index.xml"><img class="icon" src="https://szhao045.github.io/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    cherche le temp perdu
+
+</div>
+
+            <div class="markdown">
+                <p>最近听《硬影像》的一期叫做<a href="http://ipn.li/hardimage/43/">神秘主义电影</a>的博客，非常受到触动。其中最令我思考的段落总结如下：</p>
 
 <pre><code>我们的描述都在宏大叙事（也就是革命情结）与神秘主义之间游走。
 </code></pre>
@@ -412,19 +173,23 @@
 
 <p>而我们每个人的『私人的历史』似乎也可以被放在这个二分的范畴里。一方面我们的经历是宏观的，科技的进步带来的对生活的改变，对史实和政局的了解和参与；另一方面我们的经历则是非常私人的，无迹可寻的，甚至是神秘的。似乎巨大的改变都在悄然的时刻发生。这或许是悲剧的来源 &mdash; 二分带来矛盾，统一则是混乱的。</p>
 
-  </div>
-
-  <div id=links>
-    
-      <a class="basic-alignment left" href="https://szhao045.github.io/post/nostalgia/">&laquo; nostalgia</a>
-    
-    
-  </div>
+            </div>
+        </div>
+    </div>
 </section>
 
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
   
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
 </body>
 </html>
-
-
 

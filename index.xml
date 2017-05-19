@@ -1,13 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>朱弦</title>
+    <title>Zhu Xian</title>
     <link>https://szhao045.github.io/index.xml</link>
-    <description>Recent content on 朱弦</description>
+    <description>Recent content on Zhu Xian</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 18 Mar 2017 16:45:20 -0500</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 19 May 2017 16:53:33 -0500</lastBuildDate>
     <atom:link href="https://szhao045.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>new</title>
+      <link>https://szhao045.github.io/blog/new/</link>
+      <pubDate>Fri, 19 May 2017 16:53:33 -0500</pubDate>
+      
+      <guid>https://szhao045.github.io/blog/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://szhao045.github.io/about/</link>
+      <pubDate>Fri, 19 May 2017 16:46:41 -0500</pubDate>
+      
+      <guid>https://szhao045.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Gospel of our time</title>
+      <link>https://szhao045.github.io/post/A%20Gospel%20of%20our%20time/</link>
+      <pubDate>Fri, 24 Mar 2017 23:48:34 -0500</pubDate>
+      
+      <guid>https://szhao045.github.io/post/A%20Gospel%20of%20our%20time/</guid>
+      <description>&lt;p&gt;I hate to start with &amp;ldquo;this day and age&amp;rdquo;, in this day and age, music has become very private; not just in terms of medium&amp;ndash;where online streaming has provided access to music that is not limited by location and time, but also in content. Do forgive me in giving an cliché example: Taylor Swift&amp;rsquo;s boyfriend songs seem to represent our popular taste.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I am perplexed by the fast speed about our time. I wonder how much of this change is remembered, by myself and by time.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;History is like an under sampling of a signal
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I went to listen &lt;em&gt;Gospel according to the Other Mary&lt;/em&gt; today.&lt;/p&gt;
+
+&lt;p&gt;I feel I found something that can definitely be remembered by me and by time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>looking</title>
+      <link>https://szhao045.github.io/post/looking/</link>
+      <pubDate>Mon, 20 Mar 2017 10:09:07 -0500</pubDate>
+      
+      <guid>https://szhao045.github.io/post/looking/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cherche le temp perdu</title>
