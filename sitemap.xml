@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://szhao045.github.io/blog/new/</loc>
-    <lastmod>2017-05-19T16:53:33-05:00</lastmod>
+    <loc>https://szhao045.github.io/about/</loc>
+    <lastmod>2017-05-19T16:46:41-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://szhao045.github.io/about/</loc>
-    <lastmod>2017-05-19T16:46:41-05:00</lastmod>
+    <loc>https://szhao045.github.io/blog/a-gospel-of-our-time/</loc>
+    <lastmod>2017-03-24T23:48:34-05:00</lastmod>
   </url>
   
   <url>
@@ -17,8 +17,18 @@
   </url>
   
   <url>
+    <loc>https://szhao045.github.io/blog/looking/</loc>
+    <lastmod>2017-03-20T10:09:07-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://szhao045.github.io/post/looking/</loc>
     <lastmod>2017-03-20T10:09:07-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://szhao045.github.io/blog/cherche-le-temp-perdu/</loc>
+    <lastmod>2017-03-18T16:45:20-05:00</lastmod>
   </url>
   
   <url>
@@ -33,7 +43,7 @@
   
   <url>
     <loc>https://szhao045.github.io/blog/</loc>
-    <lastmod>2017-05-19T16:53:33-05:00</lastmod>
+    <lastmod>2017-03-24T23:48:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -51,7 +61,7 @@
   
   <url>
     <loc>https://szhao045.github.io/</loc>
-    <lastmod>2017-05-19T16:53:33-05:00</lastmod>
+    <lastmod>2017-05-19T16:46:41-05:00</lastmod>
     <priority>0</priority>
   </url>
   
